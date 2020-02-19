@@ -58,8 +58,8 @@ int main(){
   }
   //カオス
   if(CONFIG == 1){
-    theta1_0 = M_PI/2.0;
-    theta2_0 = M_PI/4.0;
+    theta1_0 = M_PI;
+    theta2_0 = M_PI/2.0+1.0e-10;
     omega1_0 = 0.0;
     omega2_0 = 0.0;
   }

@@ -15,8 +15,6 @@ GIFだと写真の枚数600枚くらいが限界
 '''
 ######################################
 
-
-
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -36,13 +34,13 @@ if(CONFIG == 1):
     FILE_NAME = "chaos_anime"
 
 
-df = pd.read_csv("data/" + FILE_NAME + ".csv")
+df1 = pd.read_csv("data/" + FILE_NAME + ".csv")
 
-t = df["t"]
-x1 = df["x1"]
-y1 = df["y1"]
-x2 = df["x2"]
-y2 = df["y2"]
+t = df1["t"]
+x1 = df1["x1"]
+y1 = df1["y1"]
+x2 = df1["x2"]
+y2 = df1["y2"]
 
 
 fig = plt.figure(figsize=(8, 8))
@@ -86,5 +84,5 @@ def animate(cnt):
 
 ani = FuncAnimation(fig, animate, frames=int(len(t)), interval=20, repeat=False, blit=True)
 
-#plt.show()
-ani.save("fig/anime.gif", writer="pillow", fps=20)
+plt.show()
+#ani.save("animes/anime.gif", writer="pillow", fps=20)
