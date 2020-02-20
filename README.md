@@ -1,11 +1,6 @@
 # Double Pendulum
 Solving double pendulum by Runge-Kutta method, and making gif animes.
 
-# Overview
-
-# Demo
-![result](https://github.com/mushataku/Double_Pendulum/animes/blob/media/many_chaos.gif)
-
 # Usage
 
 ```bash
