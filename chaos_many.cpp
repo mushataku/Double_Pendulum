@@ -1,8 +1,6 @@
 #define _USE_MATH_DEFINES
-#include <stdlib.h>
-#include <stdio.h>
-#include <math.h>
-#include <iostream>
+#include <cstdio>
+#include <cmath>
 
 /************計算条件************/
 //区間 [tmin,tmax] で計算

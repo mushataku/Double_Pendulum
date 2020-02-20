@@ -1,8 +1,6 @@
 #define _USE_MATH_DEFINES
-#include <stdlib.h>
-#include <stdio.h>
-#include <math.h>
-#include <iostream>
+#include <cstdio>
+#include <cmath>
 
 /************CONFIG************/
 // 初期条件を選ぶ
